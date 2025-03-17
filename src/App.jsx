@@ -72,14 +72,14 @@ function App() {
     <div className="chatscontainer">
       <div className="top">
         <div className="user">
-          <img src="https://drive.google.com/file/d/1mgb1nKlwh_mdP2u0szMv6uSNkLJD57dG/view?usp=drive_link" alt="Bot Avatar" />
+          <img src="https://i.pinimg.com/736x/5b/ef/a4/5befa46f7565c0776dcaa837ffa0865d.jpg" alt="Bot Avatar" />
           <div className="text">
             <span>LUFFY AI</span>
             <p>How can I assist you today?</p>
           </div>
         </div>
         <div className="icons">
-          <img src="https://drive.google.com/file/d/1xB9Ea3QDcbNSoAoSu-b6jxPgs3Bt9mvI/view?usp=drive_link" alt="info icon" />
+          <img src="https://img.icons8.com/?size=100&id=8uCZVwo2lPVM&format=png&color=000000" alt="info icon" />
           <div className="about">
               I’m Luffy AI, the King of AI Bots! I’m powered by the cutting-edge LLM model GorQ and crafted using LangGraph. My smarts come from some of the most advanced technologies in natural language processing, making me your ultimate conversational companion. Oh, and here’s a fun fact: I’m a stateless bot! That means I don’t record or remember anything you share with me—your queries are as safe as One Piece in the Grand Line. So feel free to ask anything without a worry!
 
@@ -112,11 +112,11 @@ function App() {
             onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
           />
           <button onClick={handleSendMessage}>
-            <img src="https://drive.google.com/file/d/1MhrKOI7MSOAcFRZnp2L4bt2bqGJGJgIf/view?usp=drive_link" alt="Send" />
+            <img src="https://img.icons8.com/?size=100&id=0prg0S64vdOO&format=png&color=000000" alt="Send" />
           </button>
         </div>
         <div className="emoji">
-          <img src="https://drive.google.com/file/d/1xzqIiajlE0l-K7-aPkL2U5zz1wvs-caq/view?usp=drive_link" alt="Emoji" onClick={() => setOpen((prev) => !prev)} />
+          <img src="https://img.icons8.com/?size=100&id=GYuFNlTpnzV0&format=png&color=000000" alt="Emoji" onClick={() => setOpen((prev) => !prev)} />
           {open && (
             <div className="picker">
               <Emojipicker onEmojiClick={handleEmoji} />
