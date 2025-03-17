@@ -72,14 +72,14 @@ function App() {
     <div className="chatscontainer">
       <div className="top">
         <div className="user">
-          <img src="./assets/bot-avatar.jpg" alt="" />
+          <img src="https://drive.google.com/file/d/1mgb1nKlwh_mdP2u0szMv6uSNkLJD57dG/view?usp=drive_link" alt="Bot Avatar" />
           <div className="text">
             <span>LUFFY AI</span>
             <p>How can I assist you today?</p>
           </div>
         </div>
         <div className="icons">
-          <img src="./assets/info.png" alt="" />
+          <img src="https://drive.google.com/file/d/1xB9Ea3QDcbNSoAoSu-b6jxPgs3Bt9mvI/view?usp=drive_link" alt="info icon" />
           <div className="about">
               I’m Luffy AI, the King of AI Bots! I’m powered by the cutting-edge LLM model GorQ and crafted using LangGraph. My smarts come from some of the most advanced technologies in natural language processing, making me your ultimate conversational companion. Oh, and here’s a fun fact: I’m a stateless bot! That means I don’t record or remember anything you share with me—your queries are as safe as One Piece in the Grand Line. So feel free to ask anything without a worry!
 
@@ -112,11 +112,11 @@ function App() {
             onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
           />
           <button onClick={handleSendMessage}>
-            <img src="./assets/send.png" alt="Send" />
+            <img src="https://drive.google.com/file/d/1MhrKOI7MSOAcFRZnp2L4bt2bqGJGJgIf/view?usp=drive_link" alt="Send" />
           </button>
         </div>
         <div className="emoji">
-          <img src="./assets/emoji.png" alt="Emoji" onClick={() => setOpen((prev) => !prev)} />
+          <img src="https://drive.google.com/file/d/1xzqIiajlE0l-K7-aPkL2U5zz1wvs-caq/view?usp=drive_link" alt="Emoji" onClick={() => setOpen((prev) => !prev)} />
           {open && (
             <div className="picker">
               <Emojipicker onEmojiClick={handleEmoji} />
